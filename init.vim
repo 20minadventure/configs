@@ -8,6 +8,7 @@ call plug#begin(stdpath('data').'/site/plugged')
 Plug 'tpope/vim-sensible'
 Plug 'tpope/vim-surround'
 Plug 'jeetsukumaran/vim-pythonsense'
+Plug 'wellle/targets.vim'  " richer text objects
 " Plug 'rakr/vim-one'  " kolorowanie składni
 " Plug 'jalvesaq/Nvim-R', {'branch': 'stable'}
 
