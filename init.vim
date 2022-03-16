@@ -16,8 +16,13 @@ Plug 'wellle/targets.vim'  " richer text objects
 call plug#end()
 
 
-"""""""""" ystem clipboard """"""""""
+"""""""""" system clipboard """"""""""
 set clipboard+=unnamedplus
+
+
+"""""""""" smartcase search """"""""""
+:set ignorecase
+:set smartcase
 
 
 """""""""" clear highlight on pressing ESC """"""""""
